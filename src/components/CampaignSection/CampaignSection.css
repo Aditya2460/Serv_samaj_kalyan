@@ -1,0 +1,10 @@
+.campaign-section {
+  background: #fff5e9;
+}
+.campaign-feature,
+.impact-panel {
+  border-color: #f3dfca;
+}
+.progress-track span {
+  background: linear-gradient(90deg, #f0640a, #ff9b16);
+}

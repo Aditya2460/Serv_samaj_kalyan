@@ -1,0 +1,9 @@
+.footer {
+  background: #173042;
+}
+.footer .brand-copy strong {
+  color: #fff;
+}
+.footer .brand-copy small {
+  color: #f4d6b5;
+}

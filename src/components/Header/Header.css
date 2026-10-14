@@ -1,0 +1,30 @@
+.site-header {
+  background: rgba(255, 250, 244, 0.98);
+  color: #173042;
+}
+.site-header.scrolled {
+  background: rgba(255, 250, 244, 0.99);
+}
+.topline {
+  background: linear-gradient(90deg, #f0640a, #e94b00);
+  color: #fff;
+}
+.nav-links > a:not(.button) {
+  color: #173042;
+}
+.nav-links > a:not(.button):hover {
+  color: #f0640a;
+}
+.mobile-toggle {
+  color: #f0640a;
+}
+@media (max-width: 800px) {
+  .nav-links {
+    background: #fffaf4;
+    color: #173042;
+  }
+  .nav-links > a:not(.button) {
+    color: #173042;
+    border-bottom: 1px solid #f0dfce;
+  }
+}

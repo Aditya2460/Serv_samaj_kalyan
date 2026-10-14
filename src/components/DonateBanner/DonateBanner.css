@@ -1,0 +1,7 @@
+.donate-banner {
+  background: linear-gradient(110deg, #173042, #233b32 60%, #563b1c);
+}
+.donate-banner .button {
+  background: linear-gradient(120deg, #f0640a, #ff9b16);
+  color: white;
+}
