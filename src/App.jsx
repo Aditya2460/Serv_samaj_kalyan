@@ -11,12 +11,16 @@ import DonateBanner from "./components/DonateBanner/DonateBanner.jsx";
 import Footer from "./components/Footer/Footer.jsx";
 import { Heart } from "lucide-react";
 import "./App.css";
+import Donate from "./components/Donate/Donate.jsx";
+import { Route, Routes } from "react-router-dom";
 export default function App() {
   useEffect(() => {
     document.documentElement.classList.add("js-ready");
   }, []);
+
   return (
     <>
+      
       <Header />
       <main>
         <Hero />

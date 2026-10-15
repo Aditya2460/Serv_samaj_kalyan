@@ -45,7 +45,7 @@ function DonateBanner() {
           <h2>आइए, मिलकर बदलाव लाएं</h2>
           <p>आपका छोटा सा सहयोग किसी के लिए नई उम्मीद बन सकता है।</p>
         </div>
-        <Button href="adityatiwaria2460@gmail.com">
+        <Button href="/donate">
           <Heart size={16} /> Donate Now
         </Button>
       </div>
