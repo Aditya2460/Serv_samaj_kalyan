@@ -85,7 +85,7 @@ function Header() {
               {label === "Our Services" && <ChevronDown size={13} />}
             </a>
           ))}
-          <Button href="#donate">Donate Now</Button>
+          <Button href="donate">Donate Now</Button>
         </div>
       </nav>
     </header>

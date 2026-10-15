@@ -486,7 +486,7 @@ img {
 }
 .service-grid {
   display: grid;
-  grid-template-columns: repeat(7, minmax(0, 1fr));
+  grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 15px;
 }
 .service-card,
@@ -753,9 +753,11 @@ img {
   width: 24px;
   background: var(--orange);
 }
+
 .impact-panel {
-  background: linear-gradient(145deg, #0b3a60, #072541);
-  color: #fff;
+  /* background: linear-gradient(145deg, #0b3a60, #072541); */
+
+  background: white;
   border-radius: 18px;
   padding: 30px;
   position: relative;
@@ -788,6 +790,7 @@ img {
 }
 .impact-heading h3 {
   font-family: "Noto Sans Devanagari";
+  color: var(--navy);
   font-size: 24px;
   margin: 0 0 9px;
 }
@@ -795,7 +798,7 @@ img {
   font-family: "Noto Sans Devanagari";
   font-size: 12px;
   line-height: 1.8;
-  color: #c4d4e2;
+  color: var(--muted);
   margin: 0 0 24px;
 }
 .impact-grid {

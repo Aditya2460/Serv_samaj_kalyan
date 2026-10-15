@@ -1,1 +1,10 @@
-.work-section{background:#fffbf6}.activity-card{border-color:#f0dfce}
+.work-section {
+  background: #fffbf6;
+}
+.activity-card {
+  border-color: #f0dfce;
+  --muted: rgba(91, 93, 94, 0.753);
+}
+.activity-desc {
+  color: var(--muted);
+}

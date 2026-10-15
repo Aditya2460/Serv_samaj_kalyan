@@ -12,6 +12,7 @@ import {
   HandHeart,
 } from "lucide-react";
 import "./Donate.css";
+import Button from "../Button/Button";
 
 const donationPurposes = [
   "General Welfare",
@@ -124,6 +125,9 @@ export default function Donate() {
             <Heart size={15} fill="currentColor" />
             GIVE WITH PURPOSE
           </span>
+          <Button variant2="backButton" href="/" arrow="2">
+            Back
+          </Button>
 
           <h1>
             Your kindness can

@@ -1,39 +1,7 @@
 import React, { useEffect, useState } from "react";
-import {
-  Heart,
-  ArrowRight,
-  ArrowUpRight,
-  Menu,
-  X,
-  Utensils,
-  Stethoscope,
-  BookOpen,
-  Users,
-  Droplet,
-  Flower2,
-  HandHeart,
-  ShieldCheck,
-  CalendarDays,
-  MapPin,
-  FileText,
-  ChevronDown,
-  Sparkles,
-  CheckCircle2,
-  Instagram,
-  Youtube,
-  Facebook,
-  Twitter,
-  Phone,
-  Mail,
-  Handshake,
-  GraduationCap,
-  HeartPulse,
-} from "lucide-react";
-import { image, services, activities, campaigns } from "../../data.js";
-import Brand from "../Brand/Brand.jsx";
+import { Heart, ShieldCheck, ChevronDown } from "lucide-react";
+import { image } from "../../data.js";
 import Button from "../Button/Button.jsx";
-import Reveal from "../Reveal/Reveal.jsx";
-import SectionHeading from "../SectionHeading/SectionHeading.jsx";
 import "./Hero.css";
 function Hero() {
   const slides = [
@@ -102,10 +70,10 @@ function Hero() {
           <h1>{slide.title}</h1>
           <p>{slide.desc}</p>
           <div className="hero-actions">
-            <Button href="#donate">
+            <Button href="donate">
               <Heart size={16} /> अभी सहयोग करें
             </Button>
-            <Button href="#services" variant="outline">
+            <Button href="#work" variant="outline">
               हमारे कार्य देखें
             </Button>
           </div>
